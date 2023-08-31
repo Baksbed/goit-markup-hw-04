@@ -128,9 +128,9 @@ li {
 .title {
     background-color: #2e2f42;
         background-image: linear-gradient(to bottom,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(/images/people-office\ 1.jpg);
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(./people-office\ 1.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -185,8 +185,9 @@ li {
 }
 
 /* Description */
-.container-description {
+.container-description-line {
     padding: 120px 0;
+    gap: 24px;
 }
 
 .description-list {
@@ -284,6 +285,37 @@ li {
     margin-bottom: 8px;
 }
 
+
+.icons {
+    display: flex;
+    padding-top: 8px;
+    gap: 24px;
+    justify-content: center;
+}
+
+.icons-photo {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-color {
+    fill: #f4f4fd;
+}
+
+.icons .social-icons:hover,
+.icons .social-icons:focus {
+    background-color: #404bbf;
+}
+
+.icons .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .block-image {
     display: block;
 }
@@ -380,4 +412,63 @@ li {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+.social-media-list {
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.social-media {
+    color: #ffffff;
+
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.footer-my {
+    display: flex;
+    column-gap: 16px;
+    align-items: baseline;
+}
+
+.footer-icons .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.footer-icons {
+    display: flex;
+    padding-top: 16px;
+    gap: 16px;
+    justify-content: center;
+}
+
+.footer-social-icons {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icons .social-icons:hover,
+.footer-icons .social-icons:focus {
+    background-color: #31d0aa;
 }
