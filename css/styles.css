@@ -92,7 +92,7 @@ position: relative;
 }
 
 
-.studio::after {
+.logo::after {
     content: "";
     display: block;
     border-bottom: 2px solid #404bbf;
