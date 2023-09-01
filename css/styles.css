@@ -92,12 +92,14 @@ position: relative;
 }
 
 
-.logo::after {
+.Studio::after {
     content: "";
     display: block;
     border-bottom: 2px solid #404bbf;
     color: #404bbf;
     position: relative;
+}
+    .Studio {
     content: "";
     position: absolute;
     left: 0;
