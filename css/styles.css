@@ -104,7 +104,9 @@ position: relative;
         background: #404bbf;
         margin: 20px 0 0 0;
 }
-
+.current {
+    color: #404bbf;
+}
 
 
 .header-link-list:hover,
