@@ -529,8 +529,8 @@ position: relative;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     display: inline-flex;
-        align-items: flex-start;
-        gap: 16px;
+     align-items: flex-start;
+     gap: 16px;
 }
 
 .footer-icons {
