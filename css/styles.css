@@ -316,7 +316,6 @@ position: relative;
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
-    box-shadow: 
 }
 
 .photo-name {
@@ -381,6 +380,7 @@ position: relative;
 .portfolio-photo {
     padding-top: 120px;
     padding-bottom: 120px;
+    overflow: hidden;
 }
 
 .portfolio-photo-list {
