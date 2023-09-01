@@ -500,12 +500,6 @@ position: relative;
     color: #f4f4fd;
 }
 
-.container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
 .social-media-list {
     margin: auto;
     margin-left: 120px;
@@ -516,6 +510,8 @@ position: relative;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
+    align-items: baseline;
 }
 
 .social-media {
