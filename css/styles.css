@@ -93,10 +93,10 @@ position: relative;
 
 .studio::after {
     content: "";
-        display: block;
-        border-bottom: 2px solid #404bbf;
-        color: #404bbf;
-        position: relative;
+    display: block;
+    border-bottom: 2px solid #404bbf;
+    color: #404bbf;
+    position: relative;
     content: "";
     position: absolute;
     left: 0;
