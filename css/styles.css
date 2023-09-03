@@ -369,6 +369,12 @@ position: relative;
 }
 
 /* portfolio */
+
+.portfolio-section {
+    padding: 120px 0;
+}
+
+
 .container-photo {
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -377,7 +383,7 @@ position: relative;
 .portfolio-photo {
     overflow: hidden;
     position: relative;
-    padding: 120px 0;
+    
     
 }
 
