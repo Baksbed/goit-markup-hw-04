@@ -43,8 +43,6 @@ li {
 
 .header-container {
     align-items: center;
-
-
 }
 
 .logo {
@@ -87,6 +85,8 @@ position: relative;
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+    padding: 24px 0;
+        display: block;
 }
 
 .current::after {
@@ -100,10 +100,14 @@ position: relative;
         flex-shrink: 0;
         border-radius: 2px;
         background: #404bbf;
-        margin: 20px 0 0 0;
 }
 .current {
-    color: #404bbf;
+    content: "";
+        display: block;
+        border-bottom: 2px solid #404bbf;
+        color: #404bbf;
+        position: relative;
+    
 }
 
 
